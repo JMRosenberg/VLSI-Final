@@ -1,0 +1,7 @@
+High-Speed 8-bit Carry Look-Ahead Adder with Zero and Overflow
+===
+
+Michael Nuzzolo and Jacob Rosenberg
+---
+
+For the final project for Tufts University EE103 (Intro to VLSI Design) we will be designing an 8-bit carry look-ahead adder.  It will be optimized for highest speed, and will include the additional functionality of zero and overflow flags.  It will be designed and implemented using the Cadence software suite.  Techniques to be used include transistor sizing, custom logic design, and parasitic capacitance reduction.  Power consumption is not a primary focus of this design.  Upon completion, performance (speed and power) will be compared with that of a static CMOS implementation with no optimization.
