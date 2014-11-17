@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="default.css"></link>
   </head>
   <body>
+<<<<<<< HEAD
     <div class="top-nav">
       <h1>High-Speed 8-bit Carry Look-Ahead Adder with Zero and Overflow</h1>
     </div>
@@ -108,5 +109,84 @@
       <p>Tufts University EE103 (VLSI Design)</p>
       <p>Fall term 2014</p>
     </div>
+=======
+    <h2>Results</h2>
+    <h3>Adder</h3>
+    <table border="1">
+      <tr>
+	<th>Combination</th>
+	<th>Output</th>
+	<th>Delay</th>
+      </tr>
+      <tr>
+	<td>0111 1111 + 0000 0001</td>
+	<td>1000 0000</td>
+	<td>20ns</td>
+      </tr>
+      <tr>
+	<td>1000 1111 + 0111 1111</td>
+	<td>0000 1110</td>
+	<td>8ns</td>
+      </tr>
+      <tr>
+	<td>1000 0000 - 0000 0001</td>
+	<td>0111 1111</td>
+	<td>10ns</td>
+      </tr>
+      <tr>
+	<td>0111 1111 - 1000 1111</td>
+	<td>1111 0000</td>
+	<td>10ns</td>
+      </tr>
+    </table>
+    <h3>2's Complement</h3>
+    <table border="1">
+      <tr>
+	<th>Input</th>
+	<th>Output</th>
+	<th>Delay</th>
+      </tr>
+      <tr>
+	<td>0000 0001</td>
+	<td>1111 1111</td>
+	<td>22ns</td>
+      </tr>
+      <tr>
+	<td>1000 1111</td>
+	<td>0111 0001</td>
+	<td>4ns</td>
+      </tr>
+    </table>
+    <hr />
+    <h3>
+      Adder Schematic 
+      <small>
+	<a href="lab3/adderSchematic.png">(Full Size)</a>
+      </small>
+    </h3>
+    <img width="500px" src="lab3/adderSchematic.png" alt="Adder Schematic" title="Adder Schematic" />
+    <h3>
+      Adder Simulation Waveform
+      <small>
+	<a href="lab3/adderWaveform.png">(Full Size)</a>
+      </small>
+    </h3>
+    <img width="500px" src="lab3/adderWaveform.png" alt="Adder Simulation Waveform" title="Adder Simulation Waveform" />
+    <hr />
+    <h3>
+      2's Complement Schematic
+      <small>
+	<a href="lab3/complementSchematic.png">(Full Size)</a>
+      </small>
+    </h3>
+    <img width="500px" src="lab3/complementSchematic.png" alt="Complement Schematic" title="Adder Schematic" />
+    <h3>
+      2's Complement Simulation Waveform
+      <small>
+	<a href="lab3/complementWaveform.png">(Full Size)</a>
+      </small>
+    </h3>
+    <img width="500px" src="lab3/complementWaveform.png" alt="Complement Simulation Waveform" title="Complement Simulation Waveform" />
+>>>>>>> bc82a0ba481e5200f5c7b78e435cbd644af7369f
   </body>
 </html>
