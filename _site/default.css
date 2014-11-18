@@ -1,0 +1,126 @@
+/*
+  Created By Jacob Rosenberg
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 600px;
+}
+
+.main-content {
+    height: 100%;
+    min-height: 50vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 73%;
+    margin: 1%;
+    background-color: #DDEEDD;
+    float: left;
+    box-shadow: 1px 3px 5px #888888;
+}
+
+.sidebar {
+    height: 100%;
+    min-height: 50vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 23%;
+    margin: 1%;
+    background-color: #FFAA33;
+    color: #FFFFFF;
+    float: left;
+    box-shadow: 1px 3px 5px #888888;
+}
+
+.top-nav {
+    height: 100%;
+    width: 98%;
+    margin: 1%;
+    margin-bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    background-color: #225577;
+    color: #FFFFFF;
+    box-shadow: 1px 3px 5px #888888;
+}
+
+.footer {
+    height: 100%;
+    width: 98%;
+    margin: 1%;
+    margin-top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    background-color: #225577;
+    color: #FFFFFF;
+    box-shadow: 1px 3px 5px #888888;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 3px;
+}
+
+.sidebar li {
+    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+a:hover {
+    background-color: #FFFFFF;
+    color: #FFAA33;
+    border-radius: 3px;
+}
+
+.half {
+    margin: 1%;
+    width: 48%;
+    float: left;
+}
+
+.full {
+    margin: 1%;
+    width: 98%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 1%;
+}
+
+tbody tr:hover {
+    background-color: #EEEEEE;
+}
+
+td {
+    padding: 1%;
+}
+
+thead {
+    background-color: #CCCCCC;
+}
