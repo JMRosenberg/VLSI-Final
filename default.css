@@ -124,3 +124,7 @@ td {
 thead {
     background-color: #CCCCCC;
 }
+
+.noBorder {
+    border-style: none;
+}
