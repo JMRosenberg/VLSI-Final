@@ -24,7 +24,12 @@
     </div>
     <div class="main-content">
 
-      <h2>Sorry! Nothing here yet...</h2>
+      <h2>Design Strategy</h2>
+<p><strong>1)</strong> We will improve the speed of the individual logic gates by implementing Domino style logic instead of Static CMOS style logic.  This can give speed improvements of up to 50%.</p>
+<p><strong>2)</strong> A second method to improve overall latency is to change the logical implementation.  Using fewer logic levels can greatly improve the overall speed, especially along the critical path.  Two-level logic will be used for each of the higher-level units where possible.</p>
+
+<h2>Extra Functionality</h2>
+<p>Our high-speed 8-bit Carry Look-Ahead Adder will have two additional features.  First, it will contain an Overflow bit, which gives an indication that the output result was not able to be contained in 8 bits.  Second, this adder will have a Zero bit output, which indicates if the result of the calculation is zero.  This allows the unit to be used for comparisons as well as simple addition, a useful feature in a full processor.</p>
 
 
     </div>
