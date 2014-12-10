@@ -18,7 +18,7 @@ body {
     padding-right: 2%;
     width: 73%;
     margin: 1%;
-    background-color: #DDEEDD;
+    background-color: #CCFFDD;
     float: left;
     box-shadow: 1px 3px 5px #888888;
 }
@@ -30,7 +30,7 @@ body {
     padding-right: 2%;
     width: 23%;
     margin: 1%;
-    background-color: #FFAA33;
+    background-color: #FF9933;
     color: #FFFFFF;
     float: left;
     box-shadow: 1px 3px 5px #888888;
@@ -44,7 +44,7 @@ body {
     padding-left: 2%;
     padding-right: 2%;
     float: left;
-    background-color: #225577;
+    background-color: #225588;
     color: #FFFFFF;
     box-shadow: 1px 3px 5px #888888;
 }
@@ -75,7 +75,7 @@ body {
     padding-bottom: 5%;
 }
 
-a:hover {
+.sidebar a:hover {
     background-color: #FFFFFF;
     color: #FFAA33;
     border-radius: 3px;

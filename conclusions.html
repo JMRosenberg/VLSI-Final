@@ -2,4 +2,5 @@
 layout: main
 ---
 
-<h2>Sorry! Nothing here yet...</h2>
+<h2>Conclusions</h2>
+<p>This project has demonstrated some techniques for building VLSI circuits optimized for certain attributes (in this case speed).  We discovered some of the tradeoffs involved to achieve this.  First, the design complexity of the speed optimized circuit was much higher.  It took weeks to design and implement, instead of just a few hours.  Using domino logic also involved adding a clock to every gate in the system, which added a challenge of routing the clock along with the power and ground rails.  Another tradeoff was that the final layout used more physical space than a slower implementation might, in part due to the extra clock traces, in part due to the additional functionality (zero and overflow bits), and in part because optimizing for size does not improve the speed as much as it would improve the power.  The power usage is another tradeoff.  Although we have not performed a thorough analysis of the power consumption, it is estimated to be much higher, becuase many of the gates are switching at each clock cycle, instead of only when the inputs change.</p>

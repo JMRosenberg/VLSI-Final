@@ -19,6 +19,7 @@
 	<li><a href="completiontable.html">Table of Completion</a></li>
 	<li><a href="performanceresults.html">Quantitative Performance Results</a></li>
 	<li><a href="conclusions.html">Conclusions</a></li>
+	<li><a href="images.html">Schematics/Layouts</a></li>
 	<li><a href="lab3.html">Lab #3: Part II</a></li>
       </ul>
     </div>
@@ -35,14 +36,15 @@
   <tbody>
     <tr>
       <td>Static CMOS</td>
-      <td></td>
+      <td>20ns</td>
     </tr>
     <tr>
-      <td>High-Speed</td>
-      <td></td>
+      <td>High-Speed Domino</td>
+      <td>2.3ns</td>
     </tr>
   </tbody>
 </table>
+<p><strong>Notes:</strong> The carry seems to propagate (the carry out bit is correct), but in many cases the carried bit does not add properly.  This should not significantly effect the delay.  Additionally, the initally simulated static CMOS implementation was a ripple-carry adder, not a carry look-ahead adder, so much of the improvement in delay time was due to a better logic implementation.  The carry look-ahead adder propagates through a worst-case of about 16 logic gates, while the ripple-carry adder propagates through a worst-case of about 22 logic gates.</p>
 
 
     </div>
