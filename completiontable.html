@@ -89,6 +89,61 @@ layout: main
 	<td></td>
       </tr>
       <tr>
+	<td>4-Input Domino AND</td>
+	<td>N/A</td>
+	<td>N/A</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+      </tr>
+      <tr>
+	<td>5-Input Domino AND</td>
+	<td>N/A</td>
+	<td>N/A</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+      </tr>
+      <tr>
+	<td>4-Input Domino OR</td>
+	<td>N/A</td>
+	<td>N/A</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+      </tr>
+      <tr>
+	<td>5-Input Domino OR</td>
+	<td>N/A</td>
+	<td>N/A</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+      </tr>
+      <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+      </tr>
+      <tr>
 	<td>1-Bit Propagate-Generate Unit</td>
 	<td>N/A</td>
 	<td>N/A</td>
@@ -96,8 +151,19 @@ layout: main
 	<td>3</td>
 	<td>3</td>
 	<td>3</td>
-	<td>2</td>
-	<td>1</td>
+	<td>3</td>
+	<td>3</td>
+      </tr>
+      <tr>
+	<td>1-Bit Sum Unit</td>
+	<td>N/A</td>
+	<td>N/A</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
       </tr>
       <tr>
 	<td></td>
@@ -114,34 +180,34 @@ layout: main
 	<td>8-Bit Propagate-Generate Unit</td>
 	<td>N/A</td>
 	<td>N/A</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>3</td>
+	<td>1</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>1</td>
       </tr>
       <tr>
 	<td>Carry Unit</td>
 	<td>N/A</td>
 	<td>N/A</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>1</td>
       </tr>
       <tr>
-	<td>Sum Unit</td>
+	<td>8-Bit Sum Unit</td>
 	<td>N/A</td>
 	<td>N/A</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>3</td>
+	<td>1</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>1</td>
       </tr>
       <tr>
 	<td>Zero Unit</td>
@@ -158,12 +224,12 @@ layout: main
 	<td>Overflow Unit</td>
 	<td>N/A</td>
 	<td>N/A</td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
+	<td>3</td>
       </tr>
       <tr>
 	<td></td>
@@ -180,7 +246,7 @@ layout: main
 	<td>8-Bit CLAA</td>
 	<td>N/A</td>
 	<td>N/A</td>
-	<td></td>
+	<td>1</td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -196,13 +262,16 @@ layout: main
     <h3>Michael Nuzzolo</h3>
     <ul>
       <li>Domino AND (2- and 3-input)</li>
-      <li>Propagate-Generate Units (1- and 8- Bit)</li>
+      <li>Propagate-Generate Units (1- and 8-bit)</li>
+      <li>Sum Units (1- and 8-bit)</li>
+      <li>Overflow Unit</li>
     </ul>
   </div>
   <div class="half">
     <h3>Jacob Rosenberg</h3>
     <ul>
-      <li>Domino OR (2- and 3-input)</li>
+      <li>Domino OR (2-, 3-, 4-, 5-input)</li>
+      <li>Domino AND (4- and 5-input)</li>
       <li>Zero Unit</li>
       <li>Carry Unit</li>
     </ul>
@@ -210,8 +279,6 @@ layout: main
   <div class="full">
     <h3>Shared</h3>
     <ul>
-      <li>Sum Unit</li>
-      <li>Overflow Unit</li>
       <li>8-bit CLAA</li>
     </ul>
   </div>
